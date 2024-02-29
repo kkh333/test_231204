@@ -11,5 +11,10 @@
         <module name="sbb.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sbb" target="17" />
+      <module name="sbb.main" target="17" />
+      <module name="sbb.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
